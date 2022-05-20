@@ -1,0 +1,12 @@
+[Unit]
+Description=flow-timed-beeper
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/play /usr/share/mint-artwork/sounds/notification.oga
+; ExecStart=echo $(date) >> /tmp/flow-timer-output
+WorkingDirectory=/tmp
+
+[Install]
+WantedBy=multi-user.target
+

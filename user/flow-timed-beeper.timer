@@ -1,0 +1,14 @@
+[Unit]
+Description=flow-timed-beeper
+Requires=flow-timed-beeper.service
+
+[Timer]
+AccuracySec=1us
+OnUnitActiveSec=1min
+Unit=flow-timed-beeper.service
+
+[Install]
+WantedBy=timers.target
+; WantedBy=multi-user.target
+
+
