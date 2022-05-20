@@ -6,7 +6,10 @@
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
 - [My SystemD Timers](#my-systemd-timers)
+  - [Symlink Timers In Home Folder](#symlink-timers-in-home-folder)
   - [Install SystemD UI, GUI](#install-systemd-ui-gui)
+  - [Command Lines](#command-lines)
+  - [See Also](#see-also)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -22,31 +25,34 @@
 
 https://askubuntu.com/a/1124446/1597241
 
-
-If you are using amd64 system, you can download the packages **systemd-ui_3-4_amd64.deb** and **systemd-gui_3-4_all.deb** from Xenial Repository and manually install with apt:
-
-    sudo apt install ./systemd-ui_3-4_amd64.deb
-    sudo apt install ./systemd-gui_3-4_all.deb
-
-I did this and worked like a charm.
-
-    systemadm
-
-Bibliography:
-
-[https://launchpad.net/ubuntu/+source/systemd-ui][1]
-[https://launchpad.net/ubuntu/+archive/primary/+files/systemd-gui_3-4_all.deb][2]
-[https://launchpad.net/ubuntu/+archive/primary/+files/systemd-ui_3-4_amd64.deb][3]
-
-
-  [1]: https://launchpad.net/ubuntu/+source/systemd-ui
-  [2]: https://launchpad.net/ubuntu/+archive/primary/+files/systemd-gui_3-4_all.deb
-  [3]: https://launchpad.net/ubuntu/+archive/primary/+files/systemd-ui_3-4_amd64.deb
+> If you are using amd64 system, you can download the packages **systemd-ui_3-4_amd64.deb** and **systemd-gui_3-4_all.deb** from Xenial Repository and manually install with apt:
+>
+>     sudo apt install ./systemd-ui_3-4_amd64.deb
+>     sudo apt install ./systemd-gui_3-4_all.deb
+>
+> I did this and worked like a charm.
+>
+>     systemadm
+>
+> Bibliography:
+>
+> [https://launchpad.net/ubuntu/+source/systemd-ui][1]
+> [https://launchpad.net/ubuntu/+archive/primary/+files/systemd-gui_3-4_all.deb][2]
+> [https://launchpad.net/ubuntu/+archive/primary/+files/systemd-ui_3-4_amd64.deb][3]
+>
+>
+>   [1]: https://launchpad.net/ubuntu/+source/systemd-ui
+>   [2]: https://launchpad.net/ubuntu/+archive/primary/+files/systemd-gui_3-4_all.deb
+>   [3]: https://launchpad.net/ubuntu/+archive/primary/+files/systemd-ui_3-4_amd64.deb
 
 ```bash
 sudo apt install ~/Downloads/systemd-ui_3-4_amd64.deb
 sudo apt install ~/Downloads/systemd-gui_3-4_all.deb
 ```
+
+(works but is spartanic and likes to freeze whenever SystemD is reloaded so maybe not worth it)
+
+## Command Lines
 
 ```bash
 sudo systemctl daemon-reload                                && \
