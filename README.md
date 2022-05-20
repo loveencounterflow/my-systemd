@@ -36,9 +36,9 @@ https://askubuntu.com/a/1124446/1597241
 >
 > Bibliography:
 >
-> [https://launchpad.net/ubuntu/+source/systemd-ui][1]
-> [https://launchpad.net/ubuntu/+archive/primary/+files/systemd-gui_3-4_all.deb][2]
-> [https://launchpad.net/ubuntu/+archive/primary/+files/systemd-ui_3-4_amd64.deb][3]
+> * [https://launchpad.net/ubuntu/+source/systemd-ui][1]
+> * [https://launchpad.net/ubuntu/+archive/primary/+files/systemd-gui_3-4_all.deb][2]
+> * [https://launchpad.net/ubuntu/+archive/primary/+files/systemd-ui_3-4_amd64.deb][3]
 >
 >
 >   [1]: https://launchpad.net/ubuntu/+source/systemd-ui
