@@ -7,7 +7,9 @@
 
 - [My SystemD Timers](#my-systemd-timers)
   - [Symlink Timers In Home Folder](#symlink-timers-in-home-folder)
-  - [Install SystemD UI, GUI](#install-systemd-ui-gui)
+  - [Tools](#tools)
+    - [Install SystemD UI, GUI](#install-systemd-ui-gui)
+    - [Cockpit](#cockpit)
   - [Command Lines](#command-lines)
   - [See Also](#see-also)
 
@@ -21,7 +23,9 @@
 
 "$USER"
 
-## Install SystemD UI, GUI
+## Tools
+
+### Install SystemD UI, GUI
 
 https://askubuntu.com/a/1124446/1597241
 
@@ -51,6 +55,13 @@ sudo apt install ~/Downloads/systemd-gui_3-4_all.deb
 ```
 
 (works but is spartanic and likes to freeze whenever SystemD is reloaded so maybe not worth it)
+
+### Cockpit
+
+https://cockpit-project.org/running.html
+
+under consideration
+
 
 ## Command Lines
 
